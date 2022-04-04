@@ -117,5 +117,5 @@ Dockerfile.prod
     docker run -it -p 3000:3000 YourImageName:dev
     ```
 
-8. Now you can open you Docker panel from your laptop and start the project from the container that you have created and press ***Start***
+8. Now you can open your Docker panel from your laptop and start the project from the container that you have created and press ***Start***
 
