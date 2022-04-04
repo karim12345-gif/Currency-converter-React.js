@@ -1,0 +1,1019 @@
+.currency-row{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 140px;
+    overflow: hidden; 
+    position: fixed;
+    background: linear-gradient(to top,  rgb(34, 33, 33) 50%,rgb(51, 56, 66) 50%,rgb(26, 25, 25) 50%) fixed; 
+}
+
+.heading{
+    
+    color: white;
+    margin-right: 60px;
+    margin-top: -120px;
+  }
+
+  img{
+    margin-left: -10px;
+  }
+  .title{
+    color: white;
+    margin-right: 1100px;
+    font-size: 45px;
+
+  }
+  .container{
+    height: 140px;
+    width: 1300px;
+    border-radius: 15px;
+    background-color: rgb(68, 68, 68);
+    margin-left: -500px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+ 
+  .middle,.right{
+    width: 120px;
+  }
+  .switch{
+    padding: 10px;
+
+    cursor: pointer;
+   
+  }
+  .result{
+    box-sizing: border-box;
+    width: 800px;
+    margin-left: 20px;
+  }
+  .convert-btn{
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 290PX;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+    border: none;
+  }
+ 
+
+
+  .total{
+    color: white;
+  }
+
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -300px;
+    margin-top: -30px;
+
+  }
+
+  
+
+  .amount-input{
+    margin-right: 60px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    height: 25px;
+    color: white ;
+    border: none;
+    appearance: none;
+    background: rgb(105,105,105);
+    padding: 12px;
+    border-radius: 15px;
+    width: 200px;
+    cursor: pointer;
+
+    font-size: 20px;
+  
+  }
+
+
+
+.hatch-img{
+  max-width: 10%;
+  margin-right: 1550px;
+  margin-bottom: 130px;
+  
+}
+
+.from{
+  color: lightgray;
+  margin-right: 40px;
+}
+.amount-text{
+  color: lightgray;
+  margin-right: 190px;
+}
+.to{
+  color: lightgray;
+  margin-right: -240px;
+}
+
+
+.select-from{
+  
+  margin-left: 10px;
+  font-size: 21px;
+  height: 50px;
+  color: white ;
+  border: none;
+  appearance: none;
+  background: rgb(105,105,105);
+  padding: 12px;
+  border-radius: 15px;
+  width: 200px;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.select-to{
+  margin-left: 160px;
+  font-size: 21px;
+  height: 50px;
+  color: white ;
+  border: none;
+  appearance: none;
+  background: rgb(105,105,105);
+  padding: 12px;
+  border-radius: 15px;
+  width: 200px;
+  font-size: 15px;
+  cursor: pointer;
+
+
+}
+
+
+
+
+.amount{
+
+  color: white;
+  margin-top: 60px;
+  margin-left: -830px;
+  font-size: 20px;
+  position: static;
+  top: 0; /* Position the navbar at the top of the page */
+  bottom:0;
+  width: 100%; /* Full width */
+  
+}
+
+.total{
+  margin-left: -760px;
+  font-size: 20px;
+  font-weight: 800;
+  font-size: 30px;
+  position: static;
+  top: 0; /* Position the navbar at the top of the page */
+  bottom:0;
+  width: 100%; /* Full width */
+  
+}
+
+
+a {
+  color: gray;
+  width: 500px;
+  text-align: center;
+  text-decoration: none;  
+  display: flex;
+  margin-top: -110px;
+  margin-left: 300px;
+}
+
+
+.SearchIcon{
+  margin-top: 15px;
+  margin-left: 110px;
+  position: fixed;
+}
+
+@media screen and  (max-width: 680px) {
+
+  .SearchIcon{
+    top: 470px;
+    margin-left: 350px;
+  
+  }
+
+a {
+  color: gray;
+  width: 600px;
+  text-align: center;
+  text-decoration: none;  
+  display: flex;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 15px;
+  
+}
+
+  .heading{
+    color: white;
+    margin-right: -1220px;
+    margin-top: -20px;
+  }
+
+
+  img{
+    margin-top: -30px;
+    
+  }
+  .title{
+    color: white;
+    margin-right: 1300px;
+    margin-top: -30px;
+    font-size: 25px;
+
+  }
+
+  .container{
+    height: 420px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: rgb(68, 68, 68);
+    margin-left: -30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .middle,.right{
+    height: 100px;
+  }
+
+  .switch{
+    padding: 10px;
+    cursor: pointer;
+   
+  }
+  .result{
+    box-sizing: border-box;
+    width: 800px;
+    margin-left: 1530px;
+    margin-top: -40px;
+  }
+  .convert-btn{
+    width: 90px;
+    height: 40px;
+    margin-top: 410px;
+    margin-left: 20PX;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+ 
+
+  .total{
+    color: white;
+    
+  }
+
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -300px;
+    margin-top: -90px;
+  
+
+  }
+
+  
+
+  .amount-input{
+    margin-right: -650px;
+    margin-bottom: 290px;
+    font-size: 13px;
+    height: 25px;
+    color: white ;
+    border: none;
+    appearance: none;
+    background: rgb(105,105,105);
+    padding: 12px;
+    border-radius: 15px;
+    width: 150px;
+    cursor: pointer;
+
+    font-size: 20px;
+  
+  }
+
+
+
+.hatch-img{
+  max-width: 8%;
+  margin-right: 1550px;
+  margin-bottom: 100px;
+  
+}
+
+.from{
+  color: lightgray;
+  padding: 2px;
+  margin-top: 10px;
+  margin-right: -410px;
+  
+}
+.amount-text{
+  color: lightgray;
+  margin-right: -550px;
+  margin-top: 80px;
+}
+.to{
+  color: lightgray;
+  margin-right: -110px;
+  margin-top: 120px; 
+
+}
+
+
+.select-from{
+  
+  margin-left: 240px;
+  font-size: 21px;
+  height: 50px;
+  color: white ;
+  border: none;
+  appearance: none;
+  background: rgb(105,105,105);
+  padding: 12px;
+  border-radius: 15px;
+  width: 170px;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.select-to{
+  margin-left: 100px;
+  font-size: 15px;
+  height: 50px;
+  color: white ;
+  border: none;
+  appearance: none;
+  background: rgb(105,105,105);
+  padding: 12px;
+  border-radius: 15px;
+  width: 170px;
+  cursor: pointer;
+
+
+
+}
+
+
+
+
+.amount{
+
+  color: white;
+  margin-top: 60px;
+  margin-left: -830px;
+  font-size: 20px;
+  position: static;
+  top: 0; /* Position the navbar at the top of the page */
+  bottom:0;
+  width: 100%; /* Full width */
+  
+}
+
+.total{
+  margin-left: -780px;
+  font-size: 18px;
+  font-weight: 800;
+  font-size: 30px;
+  position: static;
+  top: 0; /* Position the navbar at the top of the page */
+  bottom:0;
+  width: 100%; /* Full width */
+  
+}
+
+
+}
+
+
+
+@media screen and (min-width:680px) and (max-width:1200px) {
+  .SearchIcon{
+    top: 435px;
+    margin-left: 530px;
+  
+  }
+
+a {
+  color: gray;
+  width: 600px;
+  text-align: center;
+  text-decoration: none;  
+  display: flex;
+  margin-top: 10px;
+  margin-left: 160px;
+  font-size: 15px;
+  
+}
+
+  .heading{
+    color: white;
+    margin-right: -820px;
+    margin-top: -20px;
+  }
+
+
+  img{
+    margin-top: -30px;
+    
+  }
+  .title{
+    color: white;
+    margin-right: 1300px;
+    margin-top: -30px;
+    font-size: 30px;
+
+  }
+
+  .container{
+    height: 120px;
+    width: 810px;
+    border-radius: 15px;
+    background-color: rgb(68, 68, 68);
+    margin-left: 90px;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  
+
+  .switch{
+    padding: 0px;
+    cursor: pointer;
+   
+  }
+  .result{
+    box-sizing: border-box;
+    width: 800px;
+    margin-left: 1530px;
+    margin-top: -40px;
+  }
+  .convert-btn{
+    width: 90px;
+    height: 40px;
+    margin-top: 110px;
+    margin-left: 700PX;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+ 
+
+  .total{
+    color: white;
+    
+  }
+
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -300px;
+    margin-top: -90px;
+  
+
+  }
+
+  
+
+  .amount-input{
+    margin-right: -720px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    height: 26px;
+    width: 150px;
+    cursor: pointer;
+
+  
+  }
+
+
+
+.hatch-img{
+  max-width: 10%;
+  margin-right: 1550px;
+  margin-bottom: 100px;
+  
+}
+
+.from{
+  color: lightgray;
+  margin-top: 59px;
+  padding: 12px;
+  margin-right: -860px;
+ 
+  
+}
+.amount-text{
+  color: lightgray;
+  margin-right: -650px;
+  margin-top: 88px;
+}
+.to{
+  color: lightgray;
+  margin-right: -1050px;
+  margin-top: 58px;
+  padding: 10px;
+
+}
+
+
+.select-from{
+  
+  margin-left: 460px;
+  margin-top: -20px;
+  font-size: 21px;
+  height: 50px;
+  color: white ;
+  border: none;
+  appearance: none;
+  background: rgb(105,105,105);
+  padding: 12px;
+  border-radius: 15px;
+  width: 180px;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.select-to{
+  margin-left: 580px;
+  margin-top: -12px;
+  cursor: pointer;
+  width: 180px;
+  font-size: 15px;
+
+
+
+
+}
+
+
+
+
+.amount{
+
+  color: white;
+  margin-top: 60px;
+  margin-left: -830px;
+  font-size: 20px;
+  position: static;
+  top: 0; /* Position the navbar at the top of the page */
+  bottom:0;
+  width: 100%; /* Full width */
+  
+}
+
+.total{
+  margin-left: -780px;
+  font-size: 18px;
+  font-weight: 800;
+  font-size: 30px;
+  position: static;
+  top: 0; /* Position the navbar at the top of the page */
+  bottom:0;
+  width: 100%; /* Full width */
+  
+}
+
+
+}
+
+
+
+@media screen and (min-width:1200px) and (max-width:1599px) {
+
+
+.heading{
+    
+  color: white;
+  margin-right: 60px;
+  margin-top: -120px;
+}
+
+
+.title{
+  color: white;
+  margin-right: 500px;
+  font-size: 45px;
+
+}
+.container{
+  height: 140px;
+  width: 1100px;
+  border-radius: 15px;
+  background-color: rgb(68, 68, 68);
+  margin-left: -120px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.middle,.right{
+  width: 100px;
+}
+.switch{
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+.result{
+ 
+  margin-left: 550px;
+}
+.convert-btn{
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-left: 290PX;
+  padding: 10px ;
+  background-color: yellow;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+.total{
+  color: white;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -100px;
+  margin-top: -30px;
+
+}
+
+
+
+.amount-input{
+  margin-right: 60px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  height: 25px;
+  color: white ;
+  border: none;
+  appearance: none;
+  background: rgb(105,105,105);
+  padding: 12px;
+  border-radius: 15px;
+  width: 200px;
+
+  font-size: 20px;
+
+}
+
+
+
+.hatch-img{
+max-width: 15%;
+margin-right: 950px;
+margin-bottom: 130px;
+
+}
+
+.from{
+color: lightgray;
+margin-right: 40px;
+}
+.amount-text{
+color: lightgray;
+margin-right: 190px;
+}
+.to{
+color: lightgray;
+margin-right: -240px;
+}
+
+
+.select-from{
+
+margin-left: 10px;
+font-size: 21px;
+height: 50px;
+color: white ;
+border: none;
+appearance: none;
+background: rgb(105,105,105);
+padding: 12px;
+border-radius: 15px;
+width: 200px;
+font-size: 15px;
+
+}
+
+.select-to{
+margin-left: 160px;
+font-size: 21px;
+height: 50px;
+color: white ;
+border: none;
+appearance: none;
+background: rgb(105,105,105);
+padding: 12px;
+border-radius: 15px;
+width: 200px;
+font-size: 15px;
+cursor: pointer;
+
+
+}
+
+
+
+
+.amount{
+
+color: white;
+margin-top: 60px;
+margin-left: -830px;
+font-size: 20px;
+position: static;
+top: 0; /* Position the navbar at the top of the page */
+bottom:0;
+width: 100%; /* Full width */
+
+}
+
+.total{
+margin-left: -760px;
+font-size: 20px;
+font-weight: 800;
+font-size: 30px;
+position: static;
+top: 0; /* Position the navbar at the top of the page */
+bottom:0;
+width: 100%; /* Full width */
+
+}
+
+
+a {
+color: gray;
+width: 500px;
+text-align: center;
+text-decoration: none;  
+display: flex;
+margin-top: -60px;
+margin-left: 200px;
+}
+
+
+.SearchIcon{
+margin-top: 15px;
+margin-left: 110px;
+position: fixed;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1599px) and (max-width: 1822px){
+
+.heading{
+    
+  color: white;
+  margin-right: 60px;
+  margin-top: -120px;
+}
+
+
+.title{
+  color: white;
+  margin-right: 500px;
+  font-size: 45px;
+
+}
+.container{
+  height: 140px;
+  width: 1100px;
+  border-radius: 15px;
+  background-color: rgb(68, 68, 68);
+  margin-left: -120px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.middle,.right{
+  width: 100px;
+}
+.switch{
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+.result{
+ 
+  margin-left: 550px;
+}
+.convert-btn{
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-left: 290PX;
+  padding: 10px ;
+  background-color: yellow;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+.total{
+  color: white;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -100px;
+  margin-top: -30px;
+
+}
+
+
+
+.amount-input{
+  margin-right: 60px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  height: 25px;
+  color: white ;
+  border: none;
+  appearance: none;
+  background: rgb(105,105,105);
+  padding: 12px;
+  border-radius: 15px;
+  width: 200px;
+
+  font-size: 20px;
+
+}
+
+
+
+.hatch-img{
+max-width: 15%;
+margin-right: 950px;
+margin-bottom: 130px;
+
+}
+
+.from{
+color: lightgray;
+margin-right: 40px;
+}
+.amount-text{
+color: lightgray;
+margin-right: 190px;
+}
+.to{
+color: lightgray;
+margin-right: -240px;
+}
+
+
+.select-from{
+
+margin-left: 10px;
+font-size: 21px;
+height: 50px;
+color: white ;
+border: none;
+appearance: none;
+background: rgb(105,105,105);
+padding: 12px;
+border-radius: 15px;
+width: 200px;
+font-size: 15px;
+
+}
+
+.select-to{
+margin-left: 160px;
+font-size: 21px;
+height: 50px;
+color: white ;
+border: none;
+appearance: none;
+background: rgb(105,105,105);
+padding: 12px;
+border-radius: 15px;
+width: 200px;
+font-size: 15px;
+cursor: pointer;
+
+
+}
+
+
+
+
+.amount{
+
+color: white;
+margin-top: 60px;
+margin-left: -830px;
+font-size: 20px;
+position: static;
+top: 0; /* Position the navbar at the top of the page */
+bottom:0;
+width: 100%; /* Full width */
+
+}
+
+.total{
+margin-left: -760px;
+font-size: 20px;
+font-weight: 800;
+font-size: 30px;
+position: static;
+top: 0; /* Position the navbar at the top of the page */
+bottom:0;
+width: 100%; /* Full width */
+
+}
+
+
+a {
+color: gray;
+width: 500px;
+text-align: center;
+text-decoration: none;  
+display: flex;
+margin-top: -60px;
+margin-left: 200px;
+}
+
+
+.SearchIcon{
+margin-top: 15px;
+margin-left: 110px;
+position: fixed;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
