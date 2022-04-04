@@ -5,7 +5,7 @@ In the project directory, you can run the following commands:
 
 
 ### `Clone the project`
-You can clone the project using, and then install the dependencies.
+You can clone the project using this line, and then install the dependencies from the next steps.
 ```
 git clone https://github.com/karim12345-gif/Currency-converter-React.js.git
 ```
