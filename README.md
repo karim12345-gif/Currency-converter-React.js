@@ -1,7 +1,7 @@
 
 ## Available Scripts
 
-In the project directory, you can run the following commands:
+This project was written using React.js for the front-end, you can run the following commands to start the app and run it:
 
 
 ### `Clone the project`
